@@ -17,7 +17,7 @@ export class Canvas {
     protected init() {
         this.engine = new PIXI.Application();
         this.context = { engine: this.engine };
-        this.engine.init({ background: 0xeeeeee, width: window.innerWidth, height: window.innerHeight }).then(() => {
+        this.engine.init({ background: 0xffffff, width: window.innerWidth, height: window.innerHeight }).then(() => {
             this.domElement.appendChild(this.engine.canvas);
 
             const viewport = new Viewport({ screenWidth: window.innerWidth, screenHeight: window.innerHeight, worldWidth: 100000, worldHeight: 100000, events: this.engine.renderer.events })
@@ -28,8 +28,8 @@ export class Canvas {
             viewport
                 .drag()
                 .pinch()
-                .wheel()
-                .decelerate();
+                .wheel();
+            viewport.moveCenter(0,0)
         });
 
 
