@@ -1345,6 +1345,11 @@ picomatch@^2.3.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
+pixi-viewport@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/pixi-viewport/-/pixi-viewport-6.0.3.tgz#a35f3abe4d9181d81f325d3223400c6e0bf77f4b"
+  integrity sha512-2+qPJ0/n+8hQYhWvY+795+x9y3MiUrCOWacK0DY53whowWaGdx9iDocy7z1pBwjkZhC52YvrJQuZKK0sdVLtBw==
+
 pixi.js@^8.8.1:
   version "8.8.1"
   resolved "https://registry.yarnpkg.com/pixi.js/-/pixi.js-8.8.1.tgz#2812bbaac960ba3d0ef9d99d77da4454702f9e5a"
