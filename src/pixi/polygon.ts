@@ -17,5 +17,13 @@ export class Polygon extends Display {
         graphics.fill(0xde3249);
 
         this.node.addChild(graphics);
+
+        this.node.eventMode = 'static'
+        this.node.cursor = 'pointer'
+        this.node.on('pointerdown', (e) => {
+            console.log(e);
+            e.preventDefault();
+            e.stopImmediatePropagation();
+        });
     }
 }
